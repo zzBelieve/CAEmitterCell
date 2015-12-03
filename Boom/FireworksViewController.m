@@ -119,6 +119,8 @@
 //    [self.view addSubview:imgaeView];
 
     UIImage *image = [UIImage imageNamed:@"xini1.jpeg"];
+    
+    //__bridge id
     self.view.layer.contents = (__bridge id)(image.CGImage);
     
 
